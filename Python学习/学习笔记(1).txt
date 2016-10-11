@@ -1,0 +1,47 @@
+print 输出
+
+（一）标识符：
+1.在python里，标识符有字母、数字、下划线组成。
+2.在python中，所有标识符可以包括英文、数字以及下划线（_），但不能以数字开头。
+3.python中的标识符是区分大小写的。
+4.以下划线开头的标识符是有特殊意义的。以单下划线开头（_foo）的代表不能直接访问的类属性，
+需通过类提供的接口进行访问，不能用"from xxx import *"而导入；
+5.以双下划线开头的（__foo）代表类的私有成员；以双下划线开头和结尾的（__foo__）
+代表python里特殊方法专用的标识，如__init__（）代表类的构造函数
+
+（二）保留字符
+1.python 的关键只包含小写字母
+and	exec	not
+assert	finally	or
+break	for	pass
+class	from	print
+continue	global	raise
+def	if	return
+del	import	try
+elif	in	while
+else	is	with
+except	lambda	yield
+
+1.多条语句应该用（；）分割
+2.Python 不需要声明，直接赋值
+3.Numbers(数字)，String (字符串)，List(列表)，Tuple()
+
+raw 字符串(r'''...''')
+
+Unicode 字符串（u'''...'''）
+
+List (L =[?,?,?,?] print L)
+索引：访问list
+L=【95.5，85,59】
+print L[0] print L[1] print L[2] print L[-1]
+倒序：访问list
+L=【'Adam', 'Lisa', 'Bart'】
+print L[-1] print L[-2] print L[-3] print L[0]
+添加新元素(append()   insert() )
+L =['Adam', 'Lisa', 'Bart']
+删除元素
+POP（）
+tuple（）和list 相同，但是不能修改
+
+if语句
+name int L 用个元素把list 里的元素取出来

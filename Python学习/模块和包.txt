@@ -1,0 +1,29 @@
+1.模块的名字就是py文件的文件名
+2.同名模块的模块名不同
+
+包就是文件夹
+模块就是文件名
+
+导入模块：
+1.import math
+2.from os.path import isdir,isfile
+
+
+动态导入模块
+try:
+	import json
+except ImportError:
+	import simplejson as json
+
+
+利用__future__ import unicode_literals
+
+
+安装第三方模块
+1.-easy_install
+
+2.-pip
+(1)pip Add
+命令：pid install web.py
+      pythom 
+      import web
